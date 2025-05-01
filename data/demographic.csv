@@ -1,0 +1,579 @@
+city,sex,age_group,population
+manila,male,0-4,87422
+mandaluyong,male,0-4,19973
+marikina,male,0-4,21808
+pasig,male,0-4,41784
+quezon city,male,0-4,150043
+san juan,male,0-4,5503
+caloocan,male,0-4,87003
+malabon,male,0-4,18638
+navotas,male,0-4,13151
+valenzuela,male,0-4,34607
+las piñas,male,0-4,28615
+makati,male,0-4,26913
+muntinlupa,male,0-4,24980
+parañaque,male,0-4,33412
+pasay,male,0-4,17056
+taguig,male,0-4,47031
+pateros,male,0-4,3017
+manila,male,5-9,86206
+mandaluyong,male,5-9,18721
+marikina,male,5-9,21934
+pasig,male,5-9,40420
+quezon city,male,5-9,143243
+san juan,male,5-9,5200
+caloocan,male,5-9,85680
+malabon,male,5-9,19033
+navotas,male,5-9,13545
+valenzuela,male,5-9,33947
+las piñas,male,5-9,28705
+makati,male,5-9,24778
+muntinlupa,male,5-9,23928
+parañaque,male,5-9,31415
+pasay,male,5-9,17858
+taguig,male,5-9,44210
+pateros,male,5-9,3070
+manila,male,10-14,81657
+mandaluyong,male,10-14,17753
+marikina,male,10-14,21502
+pasig,male,10-14,36889
+quezon city,male,10-14,134265
+san juan,male,10-14,5058
+caloocan,male,10-14,80821
+malabon,male,10-14,18540
+navotas,male,10-14,12531
+valenzuela,male,10-14,34162
+las piñas,male,10-14,27229
+makati,male,10-14,23568
+muntinlupa,male,10-14,22638
+parañaque,male,10-14,29645
+pasay,male,10-14,17643
+taguig,male,10-14,41774
+pateros,male,10-14,3049
+manila,male,15-19,79942
+mandaluyong,male,15-19,15862
+marikina,male,15-19,19605
+pasig,male,15-19,33289
+quezon city,male,15-19,122666
+san juan,male,15-19,4573
+caloocan,male,15-19,76925
+malabon,male,15-19,17742
+navotas,male,15-19,11896
+valenzuela,male,15-19,32037
+las piñas,male,15-19,25843
+makati,male,15-19,21772
+muntinlupa,male,15-19,22373
+parañaque,male,15-19,26641
+pasay,male,15-19,17142
+taguig,male,15-19,37648
+pateros,male,15-19,2778
+manila,male,20-24,90893
+mandaluyong,male,20-24,21696
+marikina,male,20-24,20686
+pasig,male,20-24,35936
+quezon city,male,20-24,138255
+san juan,male,20-24,5728
+caloocan,male,20-24,79984
+malabon,male,20-24,18807
+navotas,male,20-24,12043
+valenzuela,male,20-24,35957
+las piñas,male,20-24,29278
+makati,male,20-24,27830
+muntinlupa,male,20-24,24787
+parañaque,male,20-24,31394
+pasay,male,20-24,25108
+taguig,male,20-24,44310
+pateros,male,20-24,2976
+manila,male,25-29,90344
+mandaluyong,male,25-29,23171
+marikina,male,25-29,20303
+pasig,male,25-29,38111
+quezon city,male,25-29,140263
+san juan,male,25-29,5711
+caloocan,male,25-29,77689
+malabon,male,25-29,17782
+navotas,male,25-29,11072
+valenzuela,male,25-29,35875
+las piñas,male,25-29,28474
+makati,male,25-29,32979
+muntinlupa,male,25-29,26049
+parañaque,male,25-29,33419
+pasay,male,25-29,26672
+taguig,male,25-29,46607
+pateros,male,25-29,2991
+manila,male,30-34,80241
+mandaluyong,male,30-34,19868
+marikina,male,30-34,18606
+pasig,male,30-34,36306
+quezon city,male,30-34,129117
+san juan,male,30-34,5457
+caloocan,male,30-34,69481
+malabon,male,30-34,15833
+navotas,male,30-34,10028
+valenzuela,male,30-34,32913
+las piñas,male,30-34,26393
+makati,male,30-34,32754
+muntinlupa,male,30-34,25334
+parañaque,male,30-34,32648
+pasay,male,30-34,22233
+taguig,male,30-34,42600
+pateros,male,30-34,2905
+manila,male,35-39,67844
+mandaluyong,male,35-39,16365
+marikina,male,35-39,16059
+pasig,male,35-39,31552
+quezon city,male,35-39,110813
+san juan,male,35-39,4795
+caloocan,male,35-39,60490
+malabon,male,35-39,13719
+navotas,male,35-39,8650
+valenzuela,male,35-39,28303
+las piñas,male,35-39,22911
+makati,male,35-39,26255
+muntinlupa,male,35-39,23634
+parañaque,male,35-39,27868
+pasay,male,35-39,18362
+taguig,male,35-39,35283
+pateros,male,35-39,2425
+manila,male,40-44,59753
+mandaluyong,male,40-44,14035
+marikina,male,40-44,14799
+pasig,male,40-44,26894
+quezon city,male,40-44,97025
+san juan,male,40-44,4294
+caloocan,male,40-44,53479
+malabon,male,40-44,12564
+navotas,male,40-44,8103
+valenzuela,male,40-44,25044
+las piñas,male,40-44,20462
+makati,male,40-44,21306
+muntinlupa,male,40-44,21177
+parañaque,male,40-44,24154
+pasay,male,40-44,15038
+taguig,male,40-44,29698
+pateros,male,40-44,2181
+manila,male,45-49,50560
+mandaluyong,male,45-49,11568
+marikina,male,45-49,12710
+pasig,male,45-49,21675
+quezon city,male,45-49,81606
+san juan,male,45-49,3716
+caloocan,male,45-49,45097
+malabon,male,45-49,10628
+navotas,male,45-49,6853
+valenzuela,male,45-49,20122
+las piñas,male,45-49,17109
+makati,male,45-49,17190
+muntinlupa,male,45-49,17713
+parañaque,male,45-49,19334
+pasay,male,45-49,11718
+taguig,male,45-49,22773
+pateros,male,45-49,1810
+manila,male,50-54,44618
+mandaluyong,male,50-54,9582
+marikina,male,50-54,11256
+pasig,male,50-54,17757
+quezon city,male,50-54,70154
+san juan,male,50-54,3312
+caloocan,male,50-54,39275
+malabon,male,50-54,9089
+navotas,male,50-54,5725
+valenzuela,male,50-54,16509
+las piñas,male,50-54,14011
+makati,male,50-54,14889
+muntinlupa,male,50-54,14923
+parañaque,male,50-54,16082
+pasay,male,50-54,9971
+taguig,male,50-54,18339
+pateros,male,50-54,1622
+manila,male,55-59,35629
+mandaluyong,male,55-59,7342
+marikina,male,55-59,9045
+pasig,male,55-59,13618
+quezon city,male,55-59,55865
+san juan,male,55-59,2693
+caloocan,male,55-59,30718
+malabon,male,55-59,7353
+navotas,male,55-59,4756
+valenzuela,male,55-59,12794
+las piñas,male,55-59,10965
+makati,male,55-59,12718
+muntinlupa,male,55-59,11460
+parañaque,male,55-59,12549
+pasay,male,55-59,7652
+taguig,male,55-59,14278
+pateros,male,55-59,1296
+manila,male,60-64,27505
+mandaluyong,male,60-64,5582
+marikina,male,60-64,7281
+pasig,male,60-64,10349
+quezon city,male,60-64,42848
+san juan,male,60-64,2065
+caloocan,male,60-64,23558
+malabon,male,60-64,5570
+navotas,male,60-64,3634
+valenzuela,male,60-64,9525
+las piñas,male,60-64,8654
+makati,male,60-64,10729
+muntinlupa,male,60-64,8879
+parañaque,male,60-64,9919
+pasay,male,60-64,5596
+taguig,male,60-64,10548
+pateros,male,60-64,946
+manila,male,65-69,17480
+mandaluyong,male,65-69,3595
+marikina,male,65-69,4816
+pasig,male,65-69,6676
+quezon city,male,65-69,26784
+san juan,male,65-69,1360
+caloocan,male,65-69,14057
+malabon,male,65-69,3518
+navotas,male,65-69,2284
+valenzuela,male,65-69,6119
+las piñas,male,65-69,5949
+makati,male,65-69,6783
+muntinlupa,male,65-69,5740
+parañaque,male,65-69,6361
+pasay,male,65-69,3805
+taguig,male,65-69,6638
+pateros,male,65-69,682
+manila,male,70-74,10563
+mandaluyong,male,70-74,2171
+marikina,male,70-74,3009
+pasig,male,70-74,4246
+quezon city,male,70-74,15431
+san juan,male,70-74,960
+caloocan,male,70-74,7669
+malabon,male,70-74,2130
+navotas,male,70-74,1213
+valenzuela,male,70-74,3500
+las piñas,male,70-74,3709
+makati,male,70-74,3979
+muntinlupa,male,70-74,3415
+parañaque,male,70-74,3935
+pasay,male,70-74,2274
+taguig,male,70-74,3403
+pateros,male,70-74,407
+manila,male,75-79,4452
+mandaluyong,male,75-79,992
+marikina,male,75-79,1357
+pasig,male,75-79,1774
+quezon city,male,75-79,7170
+san juan,male,75-79,383
+caloocan,male,75-79,3390
+malabon,male,75-79,911
+navotas,male,75-79,568
+valenzuela,male,75-79,1528
+las piñas,male,75-79,1657
+makati,male,75-79,1766
+muntinlupa,male,75-79,1493
+parañaque,male,75-79,1864
+pasay,male,75-79,956
+taguig,male,75-79,1414
+pateros,male,75-79,195
+manila,male,80+,3534
+mandaluyong,male,80+,737
+marikina,male,80+,1413
+pasig,male,80+,1535
+quezon city,male,80+,6247
+san juan,male,80+,414
+caloocan,male,80+,2583
+malabon,male,80+,709
+navotas,male,80+,388
+valenzuela,male,80+,1177
+las piñas,male,80+,1277
+makati,male,80+,1794
+muntinlupa,male,80+,1095
+parañaque,male,80+,1691
+pasay,male,80+,856
+taguig,male,80+,974
+pateros,male,80+,162
+manila,female,0-4,81853
+mandaluyong,female,0-4,18687
+marikina,female,0-4,20356
+pasig,female,0-4,39384
+quezon city,female,0-4,141203
+san juan,female,0-4,5193
+caloocan,female,0-4,80266
+malabon,female,0-4,17348
+navotas,female,0-4,12187
+valenzuela,female,0-4,32180
+las piñas,female,0-4,26768
+makati,female,0-4,25868
+muntinlupa,female,0-4,23156
+parañaque,female,0-4,31796
+pasay,female,0-4,15997
+taguig,female,0-4,43800
+pateros,female,0-4,2829
+manila,female,5-9,80099
+mandaluyong,female,5-9,17976
+marikina,female,5-9,20393
+pasig,female,5-9,37618
+quezon city,female,5-9,133359
+san juan,female,5-9,4859
+caloocan,female,5-9,78804
+malabon,female,5-9,17501
+navotas,female,5-9,12171
+valenzuela,female,5-9,31277
+las piñas,female,5-9,26496
+makati,female,5-9,23168
+muntinlupa,female,5-9,22406
+parañaque,female,5-9,29293
+pasay,female,5-9,16871
+taguig,female,5-9,40938
+pateros,female,5-9,2864
+manila,female,10-14,76920
+mandaluyong,female,10-14,16803
+marikina,female,10-14,19763
+pasig,female,10-14,34125
+quezon city,female,10-14,124322
+san juan,female,10-14,4553
+caloocan,female,10-14,76173
+malabon,female,10-14,17283
+navotas,female,10-14,11856
+valenzuela,female,10-14,31832
+las piñas,female,10-14,25390
+makati,female,10-14,21907
+muntinlupa,female,10-14,21436
+parañaque,female,10-14,27580
+pasay,female,10-14,16815
+taguig,female,10-14,39151
+pateros,female,10-14,2820
+manila,female,15-19,77828
+mandaluyong,female,15-19,15628
+marikina,female,15-19,18818
+pasig,female,15-19,32413
+quezon city,female,15-19,119334
+san juan,female,15-19,4393
+caloocan,female,15-19,73050
+malabon,female,15-19,16751
+navotas,female,15-19,11261
+valenzuela,female,15-19,30735
+las piñas,female,15-19,24910
+makati,female,15-19,21168
+muntinlupa,female,15-19,21641
+parañaque,female,15-19,25717
+pasay,female,15-19,17167
+taguig,female,15-19,36764
+pateros,female,15-19,2639
+manila,female,20-24,90134
+mandaluyong,female,20-24,22139
+marikina,female,20-24,20278
+pasig,female,20-24,36300
+quezon city,female,20-24,137285
+san juan,female,20-24,6028
+caloocan,female,20-24,78403
+malabon,female,20-24,18167
+navotas,female,20-24,11406
+valenzuela,female,20-24,33827
+las piñas,female,20-24,28673
+makati,female,20-24,29075
+muntinlupa,female,20-24,23867
+parañaque,female,20-24,30888
+pasay,female,20-24,24815
+taguig,female,20-24,44126
+pateros,female,20-24,2983
+manila,female,25-29,88440
+mandaluyong,female,25-29,23038
+marikina,female,25-29,20333
+pasig,female,25-29,38567
+quezon city,female,25-29,137589
+san juan,female,25-29,5934
+caloocan,female,25-29,75200
+malabon,female,25-29,16750
+navotas,female,25-29,10423
+valenzuela,female,25-29,33129
+las piñas,female,25-29,28078
+makati,female,25-29,33267
+muntinlupa,female,25-29,24311
+parañaque,female,25-29,32229
+pasay,female,25-29,26161
+taguig,female,25-29,44992
+pateros,female,25-29,2937
+manila,female,30-34,75609
+mandaluyong,female,30-34,19462
+marikina,female,30-34,17902
+pasig,female,30-34,35495
+quezon city,female,30-34,124133
+san juan,female,30-34,5497
+caloocan,female,30-34,65868
+malabon,female,30-34,14634
+navotas,female,30-34,9180
+valenzuela,female,30-34,29858
+las piñas,female,30-34,25610
+makati,female,30-34,31379
+muntinlupa,female,30-34,22579
+parañaque,female,30-34,30809
+pasay,female,30-34,21018
+taguig,female,30-34,39911
+pateros,female,30-34,2738
+manila,female,35-39,65937
+mandaluyong,female,35-39,16636
+marikina,female,35-39,16342
+pasig,female,35-39,30973
+quezon city,female,35-39,109539
+san juan,female,35-39,4977
+caloocan,female,35-39,58535
+malabon,female,35-39,13318
+navotas,female,35-39,8260
+valenzuela,female,35-39,26507
+las piñas,female,35-39,23364
+makati,female,35-39,26475
+muntinlupa,female,35-39,20489
+parañaque,female,35-39,27888
+pasay,female,35-39,17115
+taguig,female,35-39,33659
+pateros,female,35-39,2425
+manila,female,40-44,59468
+mandaluyong,female,40-44,14269
+marikina,female,40-44,15023
+pasig,female,40-44,27225
+quezon city,female,40-44,98911
+san juan,female,40-44,4683
+caloocan,female,40-44,52419
+malabon,female,40-44,12200
+navotas,female,40-44,7489
+valenzuela,female,40-44,23853
+las piñas,female,40-44,21178
+makati,female,40-44,21901
+muntinlupa,female,40-44,18412
+parañaque,female,40-44,24164
+pasay,female,40-44,14560
+taguig,female,40-44,28273
+pateros,female,40-44,2155
+manila,female,45-49,51310
+mandaluyong,female,45-49,12148
+marikina,female,45-49,13650
+pasig,female,45-49,22310
+quezon city,female,45-49,84733
+san juan,female,45-49,4025
+caloocan,female,45-49,44394
+malabon,female,45-49,10341
+navotas,female,45-49,6369
+valenzuela,female,45-49,19380
+las piñas,female,45-49,17568
+makati,female,45-49,18600
+muntinlupa,female,45-49,15615
+parañaque,female,45-49,20594
+pasay,female,45-49,11826
+taguig,female,45-49,22450
+pateros,female,45-49,1861
+manila,female,50-54,48093
+mandaluyong,female,50-54,10650
+marikina,female,50-54,12178
+pasig,female,50-54,19247
+quezon city,female,50-54,76585
+san juan,female,50-54,3603
+caloocan,female,50-54,40146
+malabon,female,50-54,9128
+navotas,female,50-54,5708
+valenzuela,female,50-54,16446
+las piñas,female,50-54,15332
+makati,female,50-54,17215
+muntinlupa,female,50-54,13540
+parañaque,female,50-54,18368
+pasay,female,50-54,10468
+taguig,female,50-54,19202
+pateros,female,50-54,1688
+manila,female,55-59,40406
+mandaluyong,female,55-59,9048
+marikina,female,55-59,10103
+pasig,female,55-59,15653
+quezon city,female,55-59,64025
+san juan,female,55-59,3347
+caloocan,female,55-59,33265
+malabon,female,55-59,7674
+navotas,female,55-59,4694
+valenzuela,female,55-59,13444
+las piñas,female,55-59,12710
+makati,female,55-59,15304
+muntinlupa,female,55-59,11311
+parañaque,female,55-59,15091
+pasay,female,55-59,8514
+taguig,female,55-59,15592
+pateros,female,55-59,1378
+manila,female,60-64,33598
+mandaluyong,female,60-64,7414
+marikina,female,60-64,8520
+pasig,female,60-64,13053
+quezon city,female,60-64,51645
+san juan,female,60-64,2764
+caloocan,female,60-64,26272
+malabon,female,60-64,6398
+navotas,female,60-64,3739
+valenzuela,female,60-64,10508
+las piñas,female,60-64,10623
+makati,female,60-64,13515
+muntinlupa,female,60-64,9580
+parañaque,female,60-64,12324
+pasay,female,60-64,6977
+taguig,female,60-64,12448
+pateros,female,60-64,1199
+manila,female,65-69,23366
+mandaluyong,female,65-69,5177
+marikina,female,65-69,6355
+pasig,female,65-69,9286
+quezon city,female,65-69,34853
+san juan,female,65-69,2016
+caloocan,female,65-69,17278
+malabon,female,65-69,4303
+navotas,female,65-69,2649
+valenzuela,female,65-69,7557
+las piñas,female,65-69,7651
+makati,female,65-69,9195
+muntinlupa,female,65-69,6693
+parañaque,female,65-69,8402
+pasay,female,65-69,4929
+taguig,female,65-69,8079
+pateros,female,65-69,859
+manila,female,70-74,16255
+mandaluyong,female,70-74,3622
+marikina,female,70-74,4410
+pasig,female,70-74,5977
+quezon city,female,70-74,22561
+san juan,female,70-74,1326
+caloocan,female,70-74,11289
+malabon,female,70-74,2945
+navotas,female,70-74,1856
+valenzuela,female,70-74,4885
+las piñas,female,70-74,5150
+makati,female,70-74,5988
+muntinlupa,female,70-74,4249
+parañaque,female,70-74,5656
+pasay,female,70-74,3455
+taguig,female,70-74,4905
+pateros,female,70-74,601
+manila,female,75-79,8486
+mandaluyong,female,75-79,1950
+marikina,female,75-79,2432
+pasig,female,75-79,3255
+quezon city,female,75-79,12755
+san juan,female,75-79,854
+caloocan,female,75-79,6091
+malabon,female,75-79,1503
+navotas,female,75-79,945
+valenzuela,female,75-79,2623
+las piñas,female,75-79,2739
+makati,female,75-79,3275
+muntinlupa,female,75-79,2210
+parañaque,female,75-79,3217
+pasay,female,75-79,1931
+taguig,female,75-79,2448
+pateros,female,75-79,366
+manila,female,80+,10068
+mandaluyong,female,80+,2098
+marikina,female,80+,3014
+pasig,female,80+,3467
+quezon city,female,80+,15421
+san juan,female,80+,1073
+caloocan,female,80+,6232
+malabon,female,80+,1712
+navotas,female,80+,910
+valenzuela,female,80+,2818
+las piñas,female,80+,2812
+makati,female,80+,4313
+muntinlupa,female,80+,2332
+parañaque,female,80+,3645
+pasay,female,80+,2097
+taguig,female,80+,2456
+pateros,female,80+,373
