@@ -1,0 +1,44 @@
+import networkx as nx
+import random
+
+# Parameters
+NUM_NODES = 1000
+INITIAL_VOTE_PROB = 0.1  # initial probability a node votes
+NUM_STEPS = 10
+
+# Create a network (e.g., scale-free network)
+G = nx.scale_free_graph(NUM_NODES)
+G = nx.Graph(G)  # convert to undirected for simplicity
+# Remove self-loops
+G.remove_edges_from(nx.selfloop_edges(G))
+
+# Initialize nodes with voting status
+for node in G.nodes():
+G.nodes[node]['vote'] = random.random() < INITIAL_VOTE_PROB
+
+def simulate_influence(G, num_steps=10):
+for _ in range(num_steps):
+new_votes = {}
+for node in G.nodes():
+neighbors = list(G.neighbors(node))
+if not neighbors:
+continue
+# Compute fraction of neighbors voting
+votes = sum(G.nodes[neighbor]['vote'] for neighbor in neighbors)
+frac_voting = votes / len(neighbors)
+# Influence rule: vote if fraction exceeds threshold
+threshold = 0.5  # can vary
+# Optional: add stochasticity
+prob_vote = frac_voting
+new_vote = random.random() < prob_vote
+new_votes[node] = new_vote
+# Update votes
+for node, vote in new_votes.items():
+G.nodes[node]['vote'] = vote
+
+# Run the simulation
+simulate_influence(G, NUM_STEPS)
+
+# Calculate overall turnout
+turnout = sum(G.nodes[node]['vote'] for node in G.nodes()) / len(G)
+print(f"Final turnout: {turnout:.2%}")
