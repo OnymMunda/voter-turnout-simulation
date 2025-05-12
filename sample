@@ -1,44 +1,76 @@
 import networkx as nx
+import numpy as np
 import random
 
-# Parameters
-NUM_NODES = 1000
-INITIAL_VOTE_PROB = 0.1  # initial probability a node votes
-NUM_STEPS = 10
+# PARAMETERS
+num_nodes = 1000
+network_type = 'power_law'  # options: 'regular', 'erdos_renyi', 'power_law'
+avg_degree = 6
 
-# Create a network (e.g., scale-free network)
-G = nx.scale_free_graph(NUM_NODES)
-G = nx.Graph(G)  # convert to undirected for simplicity
-# Remove self-loops
-G.remove_edges_from(nx.selfloop_edges(G))
+# CREATE NETWORK
+if network_type == 'regular':
+    G = nx.random_regular_graph(d=avg_degree, n=num_nodes)
+elif network_type == 'erdos_renyi':
+    p = avg_degree / (num_nodes - 1)
+    G = nx.erdos_renyi_graph(n=num_nodes, p=p)
+elif network_type == 'power_law':
+    m = avg_degree // 2
+    G = nx.barabasi_albert_graph(n=num_nodes, m=m)
+else:
+    raise ValueError("Invalid network type.")
 
-# Initialize nodes with voting status
+# Assign heterogeneity: degree distribution is inherent
+# Initialize voting state: could start with random or biased
 for node in G.nodes():
-G.nodes[node]['vote'] = random.random() < INITIAL_VOTE_PROB
+    G.nodes[node]['vote'] = False
 
-def simulate_influence(G, num_steps=10):
-for _ in range(num_steps):
-new_votes = {}
-for node in G.nodes():
-neighbors = list(G.neighbors(node))
-if not neighbors:
-continue
-# Compute fraction of neighbors voting
-votes = sum(G.nodes[neighbor]['vote'] for neighbor in neighbors)
-frac_voting = votes / len(neighbors)
-# Influence rule: vote if fraction exceeds threshold
-threshold = 0.5  # can vary
-# Optional: add stochasticity
-prob_vote = frac_voting
-new_vote = random.random() < prob_vote
-new_votes[node] = new_vote
-# Update votes
-for node, vote in new_votes.items():
-G.nodes[node]['vote'] = vote
+# Assign cost and benefit parameters
+# For simplicity, assume uniform costs, benefits depend on neighbors who vote
+costs = np.random.uniform(0, 1, size=num_nodes)  # individual costs
 
-# Run the simulation
-simulate_influence(G, NUM_STEPS)
+# Define benefit function: depends on fraction of neighbors voting
+def compute_benefit(node):
+    neighbors = list(G.neighbors(node))
+    if not neighbors:
+        return 0
+    votes_in_neighbors = sum(G.nodes[neighbor]['vote'] for neighbor in neighbors)
+    fraction_voting = votes_in_neighbors / len(neighbors)
+    # Benefit could be convex as per paper
+    U = fraction_voting ** 2  # example convex benefit
+    return U
 
-# Calculate overall turnout
-turnout = sum(G.nodes[node]['vote'] for node in G.nodes()) / len(G)
-print(f"Final turnout: {turnout:.2%}")
+# Simulation of social influence dynamics
+def iterate_voting(G, max_iterations=50, tolerance=1e-3):
+    for iteration in range(max_iterations):
+        changes = 0
+    for node in G.nodes():
+        neighbor_votes = [G.nodes[neighbor]['vote'] for neighbor in G.neighbors(node)]
+    if not neighbor_votes:
+        continue
+    fraction_voting = sum(neighbor_votes) / len(neighbor_votes)
+
+# Calculate benefit
+benefit = compute_benefit(node)
+
+# Decision rule: vote if benefit outweighs cost
+ # Plus some randomness or threshold:
+if benefit - costs[node] > 0:
+    new_vote = True
+else:
+    new_vote = False
+
+if G.nodes[node]['vote'] != new_vote:
+    G.nodes[node]['vote'] = new_vote
+changes += 1
+
+print(f"Iteration {iteration+1}: {changes} changes")
+if changes / num_nodes < tolerance:
+    print("Converged.")
+break
+
+# Run the influence process
+iterate_voting(G)
+
+# Calculate final turnout
+final_turnout = sum(G.nodes[node]['vote'] for node in G.nodes()) / num_nodes
+print(f"Final turnout: {final_turnout:.2%}")
