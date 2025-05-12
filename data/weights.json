@@ -31,6 +31,5 @@
     "low": 0.6,
     "middle": 0.55,
     "high": 0.5
-  },
-  "majority_influence": 0.3
+  }
 }
